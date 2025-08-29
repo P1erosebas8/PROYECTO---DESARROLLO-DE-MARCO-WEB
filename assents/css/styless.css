@@ -5,10 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*Puse esta regla para el body porque sino agarra la fuente que da el bootstrap*/
 body {
     font-family: 'Playfair Display', serif !important;
 }
+
 /*Cambie la estructura anidad, ya que en teoria para que priorice este css tiene que ser especifico, y asi no agarra el bootstrap pero no 
 parecio funcionar del todo*/
 /*HEADER*/
@@ -22,6 +24,7 @@ header {
     padding: 8px 0;
     transition: background 0.3s ease, padding 0.3s ease;
 }
+
 /*este le da el estilo cuando scrollea*/
 header.scrolled {
     background: rgba(247, 247, 247, 0.85);
@@ -76,6 +79,7 @@ header .nav-header ul li a {
     font-weight: bold;
     transition: background 0.3s ease, padding 0.3s ease;
 }
+
 /*Esto le da otro diseño a la letra cuando scrolea*/
 header.scrolled .nav-header a {
     color: black;
@@ -126,7 +130,7 @@ header.scrolled .nav-header a {
 */
 
 /*MAIN*/
-.containers-nuestro{
+.containers-nuestro {
     width: 100%;
 }
 
@@ -155,6 +159,7 @@ header.scrolled .nav-header a {
         color: white;
     }
 }
+
 /*Agrege otro banner para carta para modificarlo y se ajuste de otra manera*/
 .banner-carta {
     display: flex;
@@ -230,16 +235,20 @@ header.scrolled .nav-header a {
 }
 
 /*agrege espaciado del subtitulo*/
-.subTituloCarta{
+.subTituloCarta {
     padding: 50px;
+    font-size: xxx-large;
+
 }
 
-.tablaCarta{
+/*En caso se use el grid*/
+.tablaCarta {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 50px;
     gap: 5px;
 }
+
 
 /*MEDIA SCREEN*/
 @media screen and (max-wdth:425px) {
