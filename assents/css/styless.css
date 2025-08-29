@@ -229,6 +229,18 @@ header.scrolled .nav-header a {
     }
 }
 
+/*agrege espaciado del subtitulo*/
+.subTituloCarta{
+    padding: 50px;
+}
+
+.tablaCarta{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px;
+    gap: 5px;
+}
+
 /*MEDIA SCREEN*/
 @media screen and (max-wdth:425px) {
     .nav-header {
