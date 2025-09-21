@@ -14,9 +14,9 @@
 
 <!--Agrege el nabar de la clase-->
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
-    <div class="container-fluid">
+    <div class="container-fluid fs-4">
         <a class="navbar-brand" href="Index.html">
-            <img src="assents/img/LOGO.png" alt="Logo" width="200" height="50" class="d-inline-block align-text-top">
+            <img src="assents/img/LOGO.png" alt="Logo" width="250" height="75" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,12 +31,48 @@
                     <a class="nav-link" style="color: white;" href="Carta.html">Carta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="Horarios.html">Horarios</a>
+                    <a class="nav-link" style="color: white;" href="#" data-bs-toggle="modal"
+                        data-bs-target="#horariosModal">Horarios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" style="color: white;" href="Contacto.html">Contacto</a>
+                    <a class="nav-link" style="color: white;" href="#" data-bs-toggle="modal"
+                        data-bs-target="#contactoModal">Contacto</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+<div class="modal fade" id="horariosModal" tabindex="-1" aria-labelledby="horariosModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+                <h5 class="modal-title" id="horariosModalLabel">Horarios de Atención</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <p><b>Domingos</b> - 12:30–3 p.m.</p>
+                <p><b>lunes</b> - Cerrado</p>
+                <p><b>Martes</b> - Cerrado</p>
+                <p><b>Miércoles</b> - Cerrado</p>
+                <p><b>Jueves</b> - 8:30 p.m.–12 a.m.</p>
+                <p><b>Viernes</b> - 8:30 p.m.–12 a.m.</p>
+                <p><b>Sabado</b> - 12:30–2:30 p.m., 8:30 p.m.–12 a.m.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="contactoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-white">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactoModalLabel">Información de Contacto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <p><b>Teléfono:</b>+54 11 5020-0152</p>
+                <p><b>Email:</b> cantinachichilo@gmail.com</p>
+                <p><b>Dirección:</b>Camarones 1901, C1416 Cdad. Autónoma de Buenos Aires, Argentina</p>
+            </div>
+        </div>
+    </div>
+</div>
