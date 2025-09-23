@@ -9,6 +9,7 @@
 /*Puse esta regla para el body porque sino agarra la fuente que da el bootstrap*/
 body {
     font-family: 'Playfair Display', serif !important;
+    background-color: #121212;/*rgb(77, 71, 71) */
 }
 
 /*Cambie la estructura anidad, ya que en teoria para que priorice este css tiene que ser especifico, y asi no agarra el bootstrap pero no 
